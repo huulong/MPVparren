@@ -1,4 +1,4 @@
-package com.example.giaodien;
+package longh.dev.mvppattern;
 
 public interface Constract {
     interface IView{
@@ -6,7 +6,7 @@ public interface Constract {
         void showloginFailed();
     }
     interface IPresenter{
-        void dologin(String email, String pass, MainActivity activity);
+        void dologin(String email, String pass);
         void forgotpass();
     }
 }

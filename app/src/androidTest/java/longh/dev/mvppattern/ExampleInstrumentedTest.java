@@ -1,4 +1,4 @@
-package com.example.giaodien;
+package longh.dev.mvppattern;
 
 import android.content.Context;
 

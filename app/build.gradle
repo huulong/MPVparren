@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.giaodien'
+    namespace 'longh.dev.mvppattern'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.giaodien"
+        applicationId "longh.dev.mvppattern"
         minSdk 24
         targetSdk 33
         versionCode 1

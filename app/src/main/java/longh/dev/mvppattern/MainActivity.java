@@ -1,15 +1,13 @@
-package com.example.giaodien;
+package longh.dev.mvppattern;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.giaodien.persenter.Presenter;
+import longh.dev.mvppattern.persenter.Presenter;
 
 public class MainActivity extends AppCompatActivity implements Constract.IView{
 
@@ -32,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements Constract.IView{
         btnlogin.setOnClickListener(view ->{
             String user = edtemail.getText().toString();
             String pass = edtpass.getText().toString();
-            iPresenter.dologin(user , pass ,MainActivity.this);
+            iPresenter.dologin(user , pass);
         });
     }
 
